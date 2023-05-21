@@ -1,16 +1,7 @@
 public class un {
     public static void main(String[] args) {
+        System.out.println("olà");
 
-        //expression= operands + operators
-        //operands= variables, quantity, valune numbers
-        //operators= +,=,%,-./
-
-        double wedr = 10;
-        
-        wedr =(Double) wedr/3;
-
-        System.out.println(wedr);
-    
     }
-    
+
 }
