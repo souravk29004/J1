@@ -1,23 +1,28 @@
+import java.util.Scanner;
+
 public class un {
     public static void main(String[] args) {
 
-        float x = 3.977f;
-        float y = 56.974f;
-        float z = 498.6578f;
+        Scanner scanner = new Scanner(System.in);
 
-        //switch x=>z, y=>x, z=>y
+        System.out.println("What is your name?");
+        String name = scanner.nextLine();
 
-        float temp = x;
-        x=z;
-        z=y;
-        y=temp;
+        System.out.println("What is your age?");
+        Integer age = scanner.nextInt();
+        scanner.nextLine();//to clear \n from scanner
+
+        System.out.println("What is your favourite food?");
+        String food = scanner.nextLine();
+
+        System.out.println("hello "+ name);
+        System.out.println("Your are "+ age+ " year old.");
+        System.out.println("your favourite food is "+ food);
+
+    
 
 
-        
-
-        System.out.println(x);
-        System.out.println(y);
-        System.out.println(z);
+ 
     
     }
     
