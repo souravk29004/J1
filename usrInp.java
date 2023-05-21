@@ -19,6 +19,8 @@ public class usrInp {
         System.out.println("Your are "+ age+ " year old.");
         System.out.println("your favourite food is "+ food);
 
+        scanner.close();
+
 
 
 
