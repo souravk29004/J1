@@ -2,7 +2,8 @@ import javax.swing.JOptionPane;
 
 public class ifStat {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
+    
 
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
         
