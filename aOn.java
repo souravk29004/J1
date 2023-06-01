@@ -1,7 +1,13 @@
+import java.util.Scanner;
 public class aOn{
-   
+    
     public static void main(String[] args) {
-        int temp=25;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the current temperature");
+        Integer temp = scanner.nextInt();
+       
     if (temp>30) {
         System.out.println("It is hot outside");
     }
