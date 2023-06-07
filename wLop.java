@@ -15,7 +15,7 @@ public class wLop {
 			System.out.print("Enter your name: ");
 			name = scanner.nextLine();
 		}
-		System.out.println("Hey "+name);
+		System.out.println("Hey "+ name);
 		
 	}
 }
