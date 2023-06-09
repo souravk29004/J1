@@ -21,7 +21,7 @@ public class nLop {
         columns = scanner.nextInt();
 
 
-        System.out.println("Enter symbol to use");
+        System.out.println("Enter symbol to use: ");
         symbol = scanner.next();
 
         for(int i=1; i<=rows; i++) {
