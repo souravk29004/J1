@@ -7,7 +7,8 @@ public class fLop {
 			System.out.println(i);
 		}
 		System.out.println("Happy new year!");
-		
+	
+	      
 	}
     
 }

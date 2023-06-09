@@ -12,11 +12,11 @@ public class aOn{
         System.out.println("It is hot outside");
     }
     else if (temp>=20 && temp<=30){
-        System.out.println("It is warm outside");
+        System.out.println("It's warm outside");
 
     }   
     else {
-        System.out.println("It is cold outside");
+        System.out.println("It's cold outside");
     }
 }
 
