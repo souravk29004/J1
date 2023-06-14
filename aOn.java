@@ -5,7 +5,7 @@ public class aOn{
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the current temperature");
+        System.out.println("Enter current temperature");
         Integer temp = scanner.nextInt();
        
     if (temp>30) {
