@@ -11,7 +11,7 @@ public class nLop {
 
         int rows;
         int columns;
-        String symbol = "";
+        String symbol = "" ;
 
         System.out.println("Enter # of rows: ");
         rows = scanner.nextInt();
