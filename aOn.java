@@ -11,7 +11,7 @@ public class aOn{
     if (temp>30) {
         System.out.println("It is hot outside");
     }
-    else if (temp>=20 && temp<=30){
+    else if (temp>=20 && temp<=31){
         System.out.println("It's warm outside");
 
     }   
